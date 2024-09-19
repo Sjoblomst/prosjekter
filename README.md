@@ -1,5 +1,5 @@
 # Prosjekter
-## Runepin (React, JS, Tailwind, Vite, CRXJS)
+## Runepin (React, JS, Tailwind, [Vite](https://vitejs.dev/), [CRXJS](https://crxjs.dev/vite-plugin)
 
 **Beskrivelse**: En browser extension jeg lagde for å forenkle bokmerke-lagring. Lar deg lagre nettsider som bokmerker med tittel, URL og favicon, samt redigere tittel, slette, og søke etter URL eller tittel. Data lagres lokalt i Chrome storage.
 
@@ -18,7 +18,7 @@
 
 **Status**: Her la jeg til Babel og Webpack selv etter å ha erfart at create-react-app ikke er ideelt, og syntes det var fryktelig kronglete. Siden har jeg brukt Vite. Et annet problem var å overstyre styles på emoji-pickeren (emoji-picker-react), som hadde autogenererte klasser som `.EmojiPickerReact .epr_-2zpaw9.` Gravde meg langt inn i devtools.
 
-## Pet Rock Tamagotchi (React, JS, Tailwind, Vite, Pocketbase)
+## Pet Rock Tamagotchi (React, JS, Tailwind, Vite, [Pocketbase](https://pocketbase.io/)
 
 **Beskrivelse**: Et prosjekt for å teste PocketBase, autentisering og å utforske nye verktøy. Først forsøkt med Pixi.js (2D-grafikkbibliotek) for håndtering av collisions, men det var unødvendig og overkompliserte mye.
 
@@ -33,7 +33,7 @@
 ![Timer](https://github.com/user-attachments/assets/80b40c73-3bd1-4407-8b25-566e5d0a78f0)
 ![Todo](https://github.com/user-attachments/assets/64c81b53-1ff8-4886-9663-af252976e2d9)
 
-**Status**: Ønsker å skrive om til React/Tauri app for always-on-top funksjonalitet.
+**Status**: Ønsker å skrive om til React/[Tauri](https://tauri.app/) app for always-on-top funksjonalitet.
 
 ## Snake (LÖVE, Lua)
 ![Snake lua](https://github.com/user-attachments/assets/25ef5f23-99c0-412c-8073-53db25fc0ddc)
